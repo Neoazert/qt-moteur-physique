@@ -1,0 +1,1574 @@
+# depslib dependency file v1.0
+1472138032 source:f:\ptut\moteur-physique\cercle.cpp
+	"Cercle.h"
+	"collision.h"
+	"Info_collision.h"
+	<math.h>
+	<iostream>
+
+1459865072 f:\ptut\moteur-physique\cercle.h
+	<SFML/Window.hpp>
+	<SFML/Graphics.hpp>
+	"Objet_physique.h"
+	"Info_collision.h"
+
+1479556534 f:\ptut\moteur-physique\objet_physique.h
+	"coord.h"
+	"vecteur.h"
+	"Objet_physique.h"
+	<iostream>
+	<SFML/Window.hpp>
+	<SFML/Graphics.hpp>
+
+1459865072 f:\ptut\moteur-physique\coord.h
+
+1459865072 f:\ptut\moteur-physique\vecteur.h
+	"coord.h"
+
+1459865072 f:\ptut\moteur-physique\info_collision.h
+	"vecteur.h"
+	"coord.h"
+
+1479556322 f:\ptut\moteur-physique\collision.h
+	"Cercle.h"
+	"constantes.h"
+	"Info_collision.h"
+	"Objet.h"
+
+1479560498 f:\ptut\moteur-physique\constantes.h
+
+1479559422 f:\ptut\moteur-physique\objet.h
+	<SFML/Window.hpp>
+	<SFML/Graphics.hpp>
+	"Info_collision.h"
+	"Cercle.h"
+	"Objet_physique.h"
+	<iostream>
+
+1479578030 source:f:\ptut\moteur-physique\collision.cpp
+	"collision.h"
+	<iostream>
+	<math.h>
+	<algorithm>
+
+1479810062 source:f:\ptut\moteur-physique\main.cpp
+	<iostream>
+	<SFML/Window.hpp>
+	<SFML/Graphics.hpp>
+	"Objet.h"
+	"Cercle.h"
+	"constantes.h"
+	"Info_collision.h"
+	"collision.h"
+	"QtWidgets/qwidget.h"
+	"QtWidgets/qapplication.h"
+
+1479562012 source:f:\ptut\moteur-physique\objet.cpp
+	"Objet.h"
+	"constantes.h"
+	<math.h>
+
+1479556552 source:f:\ptut\moteur-physique\objet_physique.cpp
+	"Objet_physique.h"
+	<iostream>
+	"collision.h"
+
+1455106988 f:\ide\codeblocks\sfml-2.3.2\include\sfml\window.hpp
+	<SFML/System.hpp>
+	<SFML/Window/Context.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+	<SFML/Window/Touch.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/Window.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+
+1455106988 f:\ide\codeblocks\sfml-2.3.2\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/FileInputStream.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/MemoryInputStream.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1455106988 f:\ide\codeblocks\sfml-2.3.2\include\sfml\config.hpp
+	"TargetConditionals.h"
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\system\err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\system\fileinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdio>
+	<string>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\system\memoryinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Export.hpp>
+	<cstdlib>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Utf.hpp>
+	<locale>
+	<string>
+	<SFML/System/String.inl>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\system\utf.inl
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\system\string.inl
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\system\thread.inl
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\system\threadlocalptr.inl
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\system\vector2.inl
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\system\vector3.inl
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\window\context.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\window\export.hpp
+	<SFML/Config.hpp>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\window\glresource.hpp
+	<SFML/Window/Export.hpp>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\window\contextsettings.hpp
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\window\event.hpp
+	<SFML/Config.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\window\joystick.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/String.hpp>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\window\keyboard.hpp
+	<SFML/Window/Export.hpp>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\window\mouse.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\window\sensor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/System/Time.hpp>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\window\touch.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1455106992 f:\ide\codeblocks\sfml-2.3.2\include\sfml\window\videomode.hpp
+	<SFML/Window/Export.hpp>
+	<vector>
+
+1455106992 f:\ide\codeblocks\sfml-2.3.2\include\sfml\window\window.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/String.hpp>
+
+1455106992 f:\ide\codeblocks\sfml-2.3.2\include\sfml\window\windowhandle.hpp
+	<SFML/Config.hpp>
+
+1455106992 f:\ide\codeblocks\sfml-2.3.2\include\sfml\window\windowstyle.hpp
+
+1455106988 f:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics.hpp
+	<SFML/Window.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/CircleShape.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/ConvexShape.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Shader.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/Graphics/View.hpp>
+
+1455106988 f:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\blendmode.hpp
+	<SFML/Graphics/Export.hpp>
+
+1455106988 f:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\export.hpp
+	<SFML/Config.hpp>
+
+1455106988 f:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\circleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\shape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/Vector2.hpp>
+
+1455106988 f:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\renderstates.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\transform.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\rect.hpp
+	<SFML/System/Vector2.hpp>
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\rect.inl
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\transformable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\vertexarray.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<vector>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\vertex.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+
+1455106988 f:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\color.hpp
+	<SFML/Graphics/Export.hpp>
+
+1455106988 f:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\primitivetype.hpp
+
+1455106988 f:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\convexshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<vector>
+
+1455106988 f:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\font.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/String.hpp>
+	<map>
+	<string>
+	<vector>
+
+1455106988 f:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\glyph.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\texture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1455106988 f:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\image.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+	<vector>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\rectangleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\rendertarget.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\view.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/System/Vector2.hpp>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\rendertexture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\renderwindow.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/Window.hpp>
+	<string>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\shader.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<map>
+	<string>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\sprite.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1455106990 f:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\text.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/String.hpp>
+	<string>
+	<vector>
+
+1472138032 source:f:\ptut\moteur-physique release jl 1.0\cercle.cpp
+	"Cercle.h"
+	"collision.h"
+	"Info_collision.h"
+	<math.h>
+	<iostream>
+
+1459865072 f:\ptut\moteur-physique release jl 1.0\cercle.h
+	<SFML/Window.hpp>
+	<SFML/Graphics.hpp>
+	"Objet_physique.h"
+	"Info_collision.h"
+
+1459865072 f:\ptut\moteur-physique release jl 1.0\objet_physique.h
+	"coord.h"
+	"vecteur.h"
+	<iostream>
+	<SFML/Window.hpp>
+	<SFML/Graphics.hpp>
+
+1459865072 f:\ptut\moteur-physique release jl 1.0\coord.h
+
+1459865072 f:\ptut\moteur-physique release jl 1.0\vecteur.h
+	"coord.h"
+
+1459865072 f:\ptut\moteur-physique release jl 1.0\info_collision.h
+	"vecteur.h"
+	"coord.h"
+
+1459865072 f:\ptut\moteur-physique release jl 1.0\collision.h
+	"Cercle.h"
+	"constantes.h"
+	"Info_collision.h"
+	"Objet.h"
+
+1472137964 f:\ptut\moteur-physique release jl 1.0\constantes.h
+
+1459865072 f:\ptut\moteur-physique release jl 1.0\objet.h
+	<SFML/Window.hpp>
+	<SFML/Graphics.hpp>
+	"Info_collision.h"
+	"Cercle.h"
+	<iostream>
+
+1462964596 source:f:\ptut\moteur-physique release jl 1.0\collision.cpp
+	"collision.h"
+	<iostream>
+	<math.h>
+	<algorithm>
+
+1472138002 source:f:\ptut\moteur-physique release jl 1.0\main.cpp
+	<iostream>
+	<SFML/Window.hpp>
+	<SFML/Graphics.hpp>
+	"Objet.h"
+	"Cercle.h"
+	"constantes.h"
+	"Info_collision.h"
+	"collision.h"
+
+1459865072 source:f:\ptut\moteur-physique release jl 1.0\objet.cpp
+	"Objet.h"
+	<math.h>
+
+1459865072 source:f:\ptut\moteur-physique release jl 1.0\objet_physique.cpp
+	"Objet_physique.h"
+	<iostream>
+	"collision.h"
+
+1462968808 source:g:\ptut\moteur-physique release jl 1.0\cercle.cpp
+	"Cercle.h"
+	"collision.h"
+	"Info_collision.h"
+	<math.h>
+	<iostream>
+
+1459868672 g:\ptut\moteur-physique release jl 1.0\cercle.h
+	<SFML/Window.hpp>
+	<SFML/Graphics.hpp>
+	"Objet_physique.h"
+	"Info_collision.h"
+
+1459868672 g:\ptut\moteur-physique release jl 1.0\objet_physique.h
+	"coord.h"
+	"vecteur.h"
+	<iostream>
+	<SFML/Window.hpp>
+	<SFML/Graphics.hpp>
+
+1459868672 g:\ptut\moteur-physique release jl 1.0\coord.h
+
+1459868672 g:\ptut\moteur-physique release jl 1.0\vecteur.h
+	"coord.h"
+
+1459868672 g:\ptut\moteur-physique release jl 1.0\info_collision.h
+	"vecteur.h"
+	"coord.h"
+
+1459868672 g:\ptut\moteur-physique release jl 1.0\collision.h
+	"Cercle.h"
+	"constantes.h"
+	"Info_collision.h"
+	"Objet.h"
+
+1462968940 g:\ptut\moteur-physique release jl 1.0\constantes.h
+
+1459868672 g:\ptut\moteur-physique release jl 1.0\objet.h
+	<SFML/Window.hpp>
+	<SFML/Graphics.hpp>
+	"Info_collision.h"
+	"Cercle.h"
+	<iostream>
+
+1462968196 source:g:\ptut\moteur-physique release jl 1.0\collision.cpp
+	"collision.h"
+	<iostream>
+	<math.h>
+	<algorithm>
+
+1462968970 source:g:\ptut\moteur-physique release jl 1.0\main.cpp
+	<iostream>
+	<SFML/Window.hpp>
+	<SFML/Graphics.hpp>
+	"Objet.h"
+	"Cercle.h"
+	"constantes.h"
+	"Info_collision.h"
+	"collision.h"
+
+1459868672 source:g:\ptut\moteur-physique release jl 1.0\objet.cpp
+	"Objet.h"
+	<math.h>
+
+1459868672 source:g:\ptut\moteur-physique release jl 1.0\objet_physique.cpp
+	"Objet_physique.h"
+	<iostream>
+	"collision.h"
+
+1455106988 g:\ide\codeblocks\sfml-2.3.2\include\sfml\window.hpp
+	<SFML/System.hpp>
+	<SFML/Window/Context.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+	<SFML/Window/Touch.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/Window.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+
+1455106988 g:\ide\codeblocks\sfml-2.3.2\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/FileInputStream.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/MemoryInputStream.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1455106988 g:\ide\codeblocks\sfml-2.3.2\include\sfml\config.hpp
+	"TargetConditionals.h"
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\system\err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\system\fileinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdio>
+	<string>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\system\memoryinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Export.hpp>
+	<cstdlib>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Utf.hpp>
+	<locale>
+	<string>
+	<SFML/System/String.inl>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\system\utf.inl
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\system\string.inl
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\system\thread.inl
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\system\threadlocalptr.inl
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\system\vector2.inl
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\system\vector3.inl
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\window\context.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\window\export.hpp
+	<SFML/Config.hpp>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\window\glresource.hpp
+	<SFML/Window/Export.hpp>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\window\contextsettings.hpp
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\window\event.hpp
+	<SFML/Config.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\window\joystick.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/String.hpp>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\window\keyboard.hpp
+	<SFML/Window/Export.hpp>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\window\mouse.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\window\sensor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/System/Time.hpp>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\window\touch.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1455106992 g:\ide\codeblocks\sfml-2.3.2\include\sfml\window\videomode.hpp
+	<SFML/Window/Export.hpp>
+	<vector>
+
+1455106992 g:\ide\codeblocks\sfml-2.3.2\include\sfml\window\window.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/String.hpp>
+
+1455106992 g:\ide\codeblocks\sfml-2.3.2\include\sfml\window\windowhandle.hpp
+	<SFML/Config.hpp>
+
+1455106992 g:\ide\codeblocks\sfml-2.3.2\include\sfml\window\windowstyle.hpp
+
+1455106988 g:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics.hpp
+	<SFML/Window.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/CircleShape.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/ConvexShape.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Shader.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/Graphics/View.hpp>
+
+1455106988 g:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\blendmode.hpp
+	<SFML/Graphics/Export.hpp>
+
+1455106988 g:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\export.hpp
+	<SFML/Config.hpp>
+
+1455106988 g:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\circleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\shape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/Vector2.hpp>
+
+1455106988 g:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\renderstates.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\transform.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\rect.hpp
+	<SFML/System/Vector2.hpp>
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\rect.inl
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\transformable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\vertexarray.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<vector>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\vertex.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+
+1455106988 g:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\color.hpp
+	<SFML/Graphics/Export.hpp>
+
+1455106988 g:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\primitivetype.hpp
+
+1455106988 g:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\convexshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<vector>
+
+1455106988 g:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\font.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/String.hpp>
+	<map>
+	<string>
+	<vector>
+
+1455106988 g:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\glyph.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\texture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1455106988 g:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\image.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+	<vector>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\rectangleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\rendertarget.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\view.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/System/Vector2.hpp>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\rendertexture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\renderwindow.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/Window.hpp>
+	<string>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\shader.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<map>
+	<string>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\sprite.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1455106990 g:\ide\codeblocks\sfml-2.3.2\include\sfml\graphics\text.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/String.hpp>
+	<string>
+	<vector>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtwidgets\qwidget.h
+	<QtGui/qwindowdefs.h>
+	<QtCore/qobject.h>
+	<QtCore/qmargins.h>
+	<QtGui/qpaintdevice.h>
+	<QtGui/qpalette.h>
+	<QtGui/qfont.h>
+	<QtGui/qfontmetrics.h>
+	<QtGui/qfontinfo.h>
+	<QtWidgets/qsizepolicy.h>
+	<QtGui/qregion.h>
+	<QtGui/qbrush.h>
+	<QtGui/qcursor.h>
+	<QtGui/qkeysequence.h>
+	<QtGui/qevent.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtgui\qwindowdefs.h
+	<QtCore/qglobal.h>
+	<QtCore/qobjectdefs.h>
+	<QtCore/qnamespace.h>
+	<QtGui/qwindowdefs_win.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qglobal.h
+	<cstddef>
+	<stddef.h>
+	<QtCore/qconfig.h>
+	<QtCore/qfeatures.h>
+	<QtCore/qsystemdetection.h>
+	<QtCore/qprocessordetection.h>
+	<QtCore/qcompilerdetection.h>
+	<algorithm>
+	<QtCore/qtypeinfo.h>
+	<QtCore/qsysinfo.h>
+	<QtCore/qlogging.h>
+	<QtCore/qflags.h>
+	<QtCore/qatomic.h>
+	<QtCore/qglobalstatic.h>
+	<QtCore/qnumeric.h>
+	<QtCore/qversiontagging.h>
+
+1465538752 f:\ide\qt\5.7\mingw53_32\include\qtcore\qconfig.h
+
+1465538752 f:\ide\qt\5.7\mingw53_32\include\qtcore\qfeatures.h
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qsystemdetection.h
+	<QtCore/qglobal.h>
+	<TargetConditionals.h>
+	<Availability.h>
+	<AvailabilityMacros.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qprocessordetection.h
+	<QtCore/qglobal.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qcompilerdetection.h
+	<QtCore/qglobal.h>
+	<utility>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qtypeinfo.h
+	<QtCore/qtypetraits.h>
+	<QtCore/qisenum.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qtypetraits.h
+	"QtCore/qglobal.h"
+	<utility>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qisenum.h
+	<QtCore/qglobal.h>
+	<QtCore/qtypetraits.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qsysinfo.h
+	<QtCore/qglobal.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qlogging.h
+	<QtCore/qglobal.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qflags.h
+	<QtCore/qglobal.h>
+	<QtCore/qtypeinfo.h>
+	<QtCore/qtypetraits.h>
+	<initializer_list>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qatomic.h
+	<QtCore/qglobal.h>
+	<QtCore/qbasicatomic.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qbasicatomic.h
+	<QtCore/qatomic.h>
+	<QtCore/qatomic_bootstrap.h>
+	<QtCore/qatomic_cxx11.h>
+	<QtCore/qatomic_msvc.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qatomic_bootstrap.h
+	<QtCore/qgenericatomic.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qgenericatomic.h
+	<QtCore/qglobal.h>
+	<QtCore/qtypeinfo.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qatomic_cxx11.h
+	<QtCore/qgenericatomic.h>
+	<atomic>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qatomic_msvc.h
+	<QtCore/qgenericatomic.h>
+	<winbase.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qglobalstatic.h
+	<QtCore/qglobal.h>
+	<QtCore/qatomic.h>
+	<QtCore/qmutex.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qmutex.h
+	<QtCore/qglobal.h>
+	<QtCore/qatomic.h>
+	<new>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qnumeric.h
+	<QtCore/qglobal.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qversiontagging.h
+	<QtCore/qglobal.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qobjectdefs.h
+	<QtCore/qnamespace.h>
+	<QtCore/qobjectdefs_impl.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qnamespace.h
+	<QtCore/qglobal.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qobjectdefs_impl.h
+	<QtCore/qnamespace.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtgui\qwindowdefs_win.h
+	<QtCore/qglobal.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qobject.h
+	<QtCore/qobjectdefs.h>
+	<QtCore/qstring.h>
+	<QtCore/qbytearray.h>
+	<QtCore/qlist.h>
+	<QtCore/qcoreevent.h>
+	<QtCore/qscopedpointer.h>
+	<QtCore/qmetatype.h>
+	<QtCore/qobject_impl.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qstring.h
+	<QtCore/qchar.h>
+	<QtCore/qbytearray.h>
+	<QtCore/qrefcount.h>
+	<QtCore/qnamespace.h>
+	<string>
+	<iterator>
+	<stdarg.h>
+	<QtCore/qstringbuilder.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qchar.h
+	<QtCore/qglobal.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qbytearray.h
+	<QtCore/qrefcount.h>
+	<QtCore/qnamespace.h>
+	<QtCore/qarraydata.h>
+	<stdlib.h>
+	<string.h>
+	<stdarg.h>
+	<string>
+	<iterator>
+	<QtCore/qstring.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qrefcount.h
+	<QtCore/qatomic.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qarraydata.h
+	<QtCore/qrefcount.h>
+	<string.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qstringbuilder.h
+	<QtCore/qstring.h>
+	<QtCore/qbytearray.h>
+	<string.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qlist.h
+	<QtCore/qalgorithms.h>
+	<QtCore/qiterator.h>
+	<QtCore/qrefcount.h>
+	<QtCore/qarraydata.h>
+	<QtCore/qhashfunctions.h>
+	<iterator>
+	<list>
+	<algorithm>
+	<initializer_list>
+	<stdlib.h>
+	<new>
+	<limits.h>
+	<string.h>
+	<QtCore/qbytearraylist.h>
+	<QtCore/qstringlist.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qalgorithms.h
+	<QtCore/qglobal.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qiterator.h
+	<QtCore/qglobal.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qhashfunctions.h
+	<QtCore/qchar.h>
+	<QtCore/qpair.h>
+	<numeric>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qpair.h
+	<QtCore/qglobal.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qbytearraylist.h
+	<QtCore/qlist.h>
+	<QtCore/qbytearray.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qstringlist.h
+	<QtCore/qlist.h>
+	<QtCore/qalgorithms.h>
+	<QtCore/qregexp.h>
+	<QtCore/qstring.h>
+	<QtCore/qstringmatcher.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qregexp.h
+	<QtCore/qglobal.h>
+	<QtCore/qstring.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qstringmatcher.h
+	<QtCore/qstring.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qcoreevent.h
+	<QtCore/qnamespace.h>
+	<QtCore/qbytearray.h>
+	<QtCore/qobjectdefs.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qscopedpointer.h
+	<QtCore/qglobal.h>
+	<stdlib.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qmetatype.h
+	<QtCore/qglobal.h>
+	<QtCore/qatomic.h>
+	<QtCore/qbytearray.h>
+	<QtCore/qvarlengtharray.h>
+	<QtCore/qisenum.h>
+	<QtCore/qtypetraits.h>
+	<QtCore/qobjectdefs.h>
+	<new>
+	<vector>
+	<list>
+	<map>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qvarlengtharray.h
+	<QtCore/qcontainerfwd.h>
+	<QtCore/qglobal.h>
+	<QtCore/qalgorithms.h>
+	<new>
+	<string.h>
+	<stdlib.h>
+	<algorithm>
+	<initializer_list>
+	<iterator>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qcontainerfwd.h
+	<QtCore/qglobal.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qobject_impl.h
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qmargins.h
+	<QtCore/qnamespace.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtgui\qpaintdevice.h
+	<QtGui/qwindowdefs.h>
+	<QtCore/qrect.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qrect.h
+	<QtCore/qmargins.h>
+	<QtCore/qsize.h>
+	<QtCore/qpoint.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qsize.h
+	<QtCore/qnamespace.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qpoint.h
+	<QtCore/qnamespace.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtgui\qpalette.h
+	<QtGui/qwindowdefs.h>
+	<QtGui/qcolor.h>
+	<QtGui/qbrush.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtgui\qcolor.h
+	<QtGui/qrgb.h>
+	<QtCore/qnamespace.h>
+	<QtCore/qstringlist.h>
+	<QtGui/qrgba64.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtgui\qrgb.h
+	<QtCore/qglobal.h>
+	<QtCore/qprocessordetection.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtgui\qrgba64.h
+	<QtCore/qglobal.h>
+	<QtCore/qprocessordetection.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtgui\qbrush.h
+	<QtCore/qpair.h>
+	<QtCore/qpoint.h>
+	<QtCore/qvector.h>
+	<QtCore/qscopedpointer.h>
+	<QtGui/qcolor.h>
+	<QtGui/qmatrix.h>
+	<QtGui/qtransform.h>
+	<QtGui/qimage.h>
+	<QtGui/qpixmap.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qvector.h
+	<QtCore/qalgorithms.h>
+	<QtCore/qiterator.h>
+	<QtCore/qlist.h>
+	<QtCore/qrefcount.h>
+	<QtCore/qarraydata.h>
+	<QtCore/qhashfunctions.h>
+	<iterator>
+	<vector>
+	<stdlib.h>
+	<string.h>
+	<initializer_list>
+	<algorithm>
+	<QtCore/qpoint.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtgui\qmatrix.h
+	<QtGui/qpolygon.h>
+	<QtGui/qregion.h>
+	<QtGui/qwindowdefs.h>
+	<QtCore/qline.h>
+	<QtCore/qpoint.h>
+	<QtCore/qrect.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtgui\qpolygon.h
+	<QtCore/qvector.h>
+	<QtCore/qpoint.h>
+	<QtCore/qrect.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtgui\qregion.h
+	<QtCore/qatomic.h>
+	<QtCore/qrect.h>
+	<QtGui/qwindowdefs.h>
+	<QtCore/qdatastream.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qdatastream.h
+	<QtCore/qscopedpointer.h>
+	<QtCore/qiodevice.h>
+	<QtCore/qpair.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qiodevice.h
+	<QtCore/qglobal.h>
+	<QtCore/qobject.h>
+	<QtCore/qobjectdefs.h>
+	<QtCore/qscopedpointer.h>
+	<QtCore/qstring.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qline.h
+	<QtCore/qpoint.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtgui\qtransform.h
+	<QtGui/qmatrix.h>
+	<QtGui/qpainterpath.h>
+	<QtGui/qpolygon.h>
+	<QtGui/qregion.h>
+	<QtGui/qwindowdefs.h>
+	<QtCore/qline.h>
+	<QtCore/qpoint.h>
+	<QtCore/qrect.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtgui\qpainterpath.h
+	<QtGui/qmatrix.h>
+	<QtCore/qglobal.h>
+	<QtCore/qrect.h>
+	<QtCore/qline.h>
+	<QtCore/qvector.h>
+	<QtCore/qscopedpointer.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtgui\qimage.h
+	<QtGui/qcolor.h>
+	<QtGui/qrgb.h>
+	<QtGui/qpaintdevice.h>
+	<QtGui/qpixelformat.h>
+	<QtGui/qtransform.h>
+	<QtCore/qbytearray.h>
+	<QtCore/qrect.h>
+	<QtCore/qstring.h>
+	<QtCore/qstringlist.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtgui\qpixelformat.h
+	<QtCore/qglobal.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtgui\qpixmap.h
+	<QtGui/qpaintdevice.h>
+	<QtGui/qcolor.h>
+	<QtCore/qnamespace.h>
+	<QtCore/qstring.h>
+	<QtCore/qsharedpointer.h>
+	<QtGui/qimage.h>
+	<QtGui/qtransform.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qsharedpointer.h
+	<QtCore/qglobal.h>
+	<QtCore/qatomic.h>
+	<QtCore/qshareddata.h>
+	<QtCore/qsharedpointer_impl.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qshareddata.h
+	<QtCore/qglobal.h>
+	<QtCore/qatomic.h>
+	<QtCore/qhash.h>
+	<QtCore/qhashfunctions.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qhash.h
+	<QtCore/qchar.h>
+	<QtCore/qiterator.h>
+	<QtCore/qlist.h>
+	<QtCore/qrefcount.h>
+	<QtCore/qhashfunctions.h>
+	<initializer_list>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qsharedpointer_impl.h
+	<new>
+	<QtCore/qatomic.h>
+	<QtCore/qobject.h>
+	<QtCore/qhash.h>
+	<QtCore/qhashfunctions.h>
+	<utility>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtgui\qfont.h
+	<QtGui/qwindowdefs.h>
+	<QtCore/qstring.h>
+	<QtCore/qsharedpointer.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtgui\qfontmetrics.h
+	<QtGui/qfont.h>
+	<QtCore/qsharedpointer.h>
+	<QtCore/qrect.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtgui\qfontinfo.h
+	<QtGui/qfont.h>
+	<QtCore/qsharedpointer.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtwidgets\qsizepolicy.h
+	<QtCore/qobject.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtgui\qcursor.h
+	<QtCore/qpoint.h>
+	<QtGui/qwindowdefs.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtgui\qkeysequence.h
+	<QtCore/qnamespace.h>
+	<QtCore/qstring.h>
+	<QtCore/qobjectdefs.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtgui\qevent.h
+	<QtGui/qwindowdefs.h>
+	<QtGui/qregion.h>
+	<QtCore/qnamespace.h>
+	<QtCore/qstring.h>
+	<QtGui/qkeysequence.h>
+	<QtCore/qcoreevent.h>
+	<QtCore/qvariant.h>
+	<QtCore/qmap.h>
+	<QtCore/qvector.h>
+	<QtCore/qset.h>
+	<QtCore/qurl.h>
+	<QtCore/qfile.h>
+	<QtGui/qvector2d.h>
+	<QtGui/qtouchdevice.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qvariant.h
+	<QtCore/qatomic.h>
+	<QtCore/qbytearray.h>
+	<QtCore/qlist.h>
+	<QtCore/qmetatype.h>
+	<QtCore/qmap.h>
+	<QtCore/qhash.h>
+	<QtCore/qstring.h>
+	<QtCore/qstringlist.h>
+	<QtCore/qobject.h>
+	<QtCore/qbytearraylist.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qmap.h
+	<QtCore/qiterator.h>
+	<QtCore/qlist.h>
+	<QtCore/qrefcount.h>
+	<QtCore/qpair.h>
+	<QtCore/qtypetraits.h>
+	<QtCore/qdebug.h>
+	<map>
+	<new>
+	<initializer_list>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qdebug.h
+	<QtCore/qalgorithms.h>
+	<QtCore/qhash.h>
+	<QtCore/qlist.h>
+	<QtCore/qmap.h>
+	<QtCore/qpair.h>
+	<QtCore/qtextstream.h>
+	<QtCore/qstring.h>
+	<QtCore/qvector.h>
+	<QtCore/qset.h>
+	<QtCore/qcontiguouscache.h>
+	<QtCore/qsharedpointer.h>
+	<vector>
+	<list>
+	<map>
+	<utility>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qtextstream.h
+	<QtCore/qiodevice.h>
+	<QtCore/qstring.h>
+	<QtCore/qchar.h>
+	<QtCore/qlocale.h>
+	<QtCore/qscopedpointer.h>
+	<stdio.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qlocale.h
+	<QtCore/qvariant.h>
+	<QtCore/qstring.h>
+	<QtCore/qobjectdefs.h>
+	<QtCore/qshareddata.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qset.h
+	<QtCore/qhash.h>
+	<initializer_list>
+	<iterator>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qcontiguouscache.h
+	<QtCore/qatomic.h>
+	<limits.h>
+	<new>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qurl.h
+	<QtCore/qbytearray.h>
+	<QtCore/qobjectdefs.h>
+	<QtCore/qstring.h>
+	<QtCore/qlist.h>
+	<QtCore/qpair.h>
+	<QtCore/qglobal.h>
+	<QtCore/qurlquery.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qurlquery.h
+	<QtCore/qpair.h>
+	<QtCore/qshareddata.h>
+	<QtCore/qurl.h>
+	<QtCore/qstringlist.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qfile.h
+	<QtCore/qfiledevice.h>
+	<QtCore/qstring.h>
+	<stdio.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qfiledevice.h
+	<QtCore/qiodevice.h>
+	<QtCore/qstring.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtgui\qvector2d.h
+	<QtCore/qpoint.h>
+	<QtCore/qmetatype.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtgui\qtouchdevice.h
+	<QtCore/qobject.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtwidgets\qapplication.h
+	<QtCore/qcoreapplication.h>
+	<QtGui/qwindowdefs.h>
+	<QtCore/qpoint.h>
+	<QtCore/qsize.h>
+	<QtGui/qcursor.h>
+	<QtWidgets/qdesktopwidget.h>
+	<QtGui/qguiapplication.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qcoreapplication.h
+	<QtCore/qglobal.h>
+	<QtCore/qstring.h>
+	<QtCore/qobject.h>
+	<QtCore/qcoreevent.h>
+	<QtCore/qeventloop.h>
+	<QtCore/qscopedpointer.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtcore\qeventloop.h
+	<QtCore/qobject.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtwidgets\qdesktopwidget.h
+	<QtWidgets/qwidget.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtgui\qguiapplication.h
+	<QtCore/qcoreapplication.h>
+	<QtGui/qwindowdefs.h>
+	<QtGui/qinputmethod.h>
+	<QtCore/qlocale.h>
+	<QtCore/qpoint.h>
+	<QtCore/qsize.h>
+
+429058800 f:\ide\qt\5.7\mingw53_32\include\qtgui\qinputmethod.h
+	<QtCore/qobject.h>
+
